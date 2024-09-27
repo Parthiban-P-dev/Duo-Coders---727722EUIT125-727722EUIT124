@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Portal</title>
+    <style>
+      * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #6200ea;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 15px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffeb3b;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff5722;
+}
+
+.hero {
+   
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.hero-content {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero h2 {
+    font-size: 3rem;
+    color: #ffeb3b;
+}
+
+.hero p {
+    font-size: 1.4rem;
+    color: #ffcc80;
+}
+
+.cta-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #03a9f4;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #0288d1;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+    background-color: #fff;
+    color: #424242;
+    flex-wrap: wrap;
+}
+
+.feature {
+    flex: 1;
+    padding: 25px;
+    margin: 10px;
+    text-align: center;
+    background-color: #e1bee7;
+    border-radius: 10px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+.feature h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #7e57c2;
+}
+
+.feature p {
+    font-size: 1.1rem;
+    color: #5e35b1;
+}
+
+footer {
+    background-color: #6200ea;
+    color: #ffeb3b;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>College Portal</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Admissions</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Our College Portal</h2>
+            <p>Your gateway to quality education and a bright future.</p>
+            <a href="#" class="cta-btn">Get Started</a>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="feature">
+            <h3>Our Courses</h3>
+            <p>Explore a wide range of courses designed to help you succeed.</p>
+        </div>
+        <div class="feature">
+            <h3>Experienced Faculty</h3>
+            <p>Learn from industry experts and academic leaders.</p>
+        </div>
+        <div class="feature">
+            <h3>Campus Life</h3>
+            <p>Experience vibrant campus life with a diverse student community.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>2024 College Portal. All rights reserved.</p>
+    </footer>
+</body>
+</html>
